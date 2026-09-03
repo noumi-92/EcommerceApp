@@ -7,26 +7,27 @@ import Counter from '../screens/Counter';
 import StudentsFlatList from '../screens/StudentsFlatList';
 import ReactHooks from '../screens/ReactHooks';
 import UseRef from '../screens/UseRef';
+import APICalls from '../screens/APICalls';
 
 const Stack = createNativeStackNavigator();
 
 const RootStack = () => {
   return (
     <Stack.Navigator initialRouteName="Home">
-      <Stack.Screen 
-        name="Home" 
-        component={HomeScreen} 
-        options={{ title: 'React Native Examples' }} 
+      <Stack.Screen
+        name="Home"
+        component={HomeScreen}
+        options={{ title: 'React Native Examples' }}
       />
-      <Stack.Screen 
-        name="Search" 
-        component={SearchScreen} 
-        options={{ title: 'Student Search' }} 
+      <Stack.Screen
+        name="Search"
+        component={SearchScreen}
+        options={{ title: 'Student Search' }}
       />
-      <Stack.Screen 
-        name="StudentDirectory" 
-        component={StudentDirectory} 
-        options={{ title: 'Student Directory' }} 
+      <Stack.Screen
+        name="StudentDirectory"
+        component={StudentDirectory}
+        options={{ title: 'Student Directory' }}
       />
       <Stack.Screen
         name="Counter"
@@ -48,7 +49,13 @@ const RootStack = () => {
         component={UseRef}
         options={{ title: 'useRef Example' }}
       />
+      <Stack.Screen
+        name="APICalls"
+        component={APICalls}
+        options={{ title: 'API Calls' }}
+      />
     </Stack.Navigator>
+
   );
 };
 

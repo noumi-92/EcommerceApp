@@ -8,6 +8,7 @@ const MENU_ITEMS = [
   { id: '4', title: 'Students FlatList', screen: 'StudentsFlatList' },
     { id: '5', title: 'React Hooks Examples', screen: 'ReactHooks' },
     { id: '6', title: 'useRef Example', screen: 'UseRef' },
+  { id: '7', title: 'API Calls', screen: 'APICalls' },
 ];
 
 const HomeScreen = ({ navigation }) => {
