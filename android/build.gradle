@@ -15,7 +15,10 @@ buildscript {
         classpath("com.android.tools.build:gradle")
         classpath("com.facebook.react:react-native-gradle-plugin")
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin")
+        // Add Google Services classpath here (version 4.4.2 is stable)
+        classpath("com.google.gms:google-services:4.4.2")
     }
 }
 
+// Applies the React Native root project plugin
 apply plugin: "com.facebook.react.rootproject"

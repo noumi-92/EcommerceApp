@@ -8,6 +8,13 @@ import StudentsFlatList from '../screens/StudentsFlatList';
 import ReactHooks from '../screens/ReactHooks';
 import UseRef from '../screens/UseRef';
 import APICalls from '../screens/APICalls';
+import APIUserProfile from '../screens/APIUserProfile';
+import FirebaseProducts from '../screens/FirebaseProducts';
+import PostsList from '../screens/PostsList';
+import ProductsList from '../screens/ProductsList';
+import UsersListScreen from '../screens/UsersListScreen';
+import PostApi from '../screens/PostApi';
+import MediaPost from '../screens/MediaPost';
 
 const Stack = createNativeStackNavigator();
 
@@ -53,6 +60,41 @@ const RootStack = () => {
         name="APICalls"
         component={APICalls}
         options={{ title: 'API Calls' }}
+      />
+      <Stack.Screen
+        name="APIUserProfile"
+        component={APIUserProfile}
+        options={{ title: 'API User Profile' }}
+      />
+      <Stack.Screen
+        name="FirebaseProducts"
+        component={FirebaseProducts}
+        options={{ title: 'Firebase Products' }}
+      />
+      <Stack.Screen
+        name="PostsList"
+        component={PostsList}
+        options={{ title: 'Posts List' }}
+      />
+      <Stack.Screen
+        name="ProductsList"
+        component={ProductsList}
+        options={{ title: 'Product Catalog' }}
+      />
+      <Stack.Screen
+        name="UsersList"
+        component={UsersListScreen}
+        options={{ title: 'Users List' }}
+      />
+      <Stack.Screen
+        name="PostApi"
+        component={PostApi}
+        options={{ title: 'Post API' }}
+      />
+      <Stack.Screen
+        name="MediaPost"
+        component={MediaPost}
+        options={{ title: 'Media Post' }}
       />
     </Stack.Navigator>
 

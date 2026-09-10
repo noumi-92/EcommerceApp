@@ -6,9 +6,16 @@ const MENU_ITEMS = [
   { id: '2', title: 'Student Directory', screen: 'StudentDirectory' },
   { id: '3', title: 'Counter', screen: 'Counter' },
   { id: '4', title: 'Students FlatList', screen: 'StudentsFlatList' },
-    { id: '5', title: 'React Hooks Examples', screen: 'ReactHooks' },
-    { id: '6', title: 'useRef Example', screen: 'UseRef' },
+  { id: '5', title: 'React Hooks Examples', screen: 'ReactHooks' },
+  { id: '6', title: 'useRef Example', screen: 'UseRef' },
   { id: '7', title: 'API Calls', screen: 'APICalls' },
+  { id: '8', title: 'API User Profile', screen: 'APIUserProfile' },
+  { id: '9', title: 'Firebase Products', screen: 'FirebaseProducts' },
+  { id: '10', title: 'Posts List', screen: 'PostsList' },
+  { id: '11', title: 'Product Catalog', screen: 'ProductsList' },
+  { id: '12', title: 'Users List', screen: 'UsersList' },
+  { id: '13', title: 'Post API', screen: 'PostApi' },
+  { id: '14', title: 'Media Post', screen: 'MediaPost' },
 ];
 
 const HomeScreen = ({ navigation }) => {
